@@ -1,0 +1,10 @@
+# Python packages for the EPL odds calibration project.
+# Lower bounds only for now, so Colab doesn't fight your install.
+# When the project is finished: run this in Colab, then replace the lines below with exact pins:
+#   !pip freeze | grep -i -E "^(pandas|numpy|scipy|statsmodels|matplotlib|plotly)=="
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+statsmodels>=0.14
+matplotlib>=3.7
+plotly>=5.15
